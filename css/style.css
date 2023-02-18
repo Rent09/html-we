@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebebeb;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.page-wrapper {
+  overflow: hidden;
+  max-width: 390px;
+  margin: auto;
+  background: #a8a8a8;
+  box-shadow: 0px 0px 30px rgba(119, 119, 119, 0.25);
+  border-radius: 20px;
+}
+
+.container {
+  max-width: 300px;
+  margin: auto;
+}
+
+.header {
+  color: #fff;
+  padding: 38px 65px 133px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/header.png") no-repeat center / cover;
+  border-radius: 20px 20px 80px 80px;
+}
+
+.hello {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.hello-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.user {
+  text-align: center;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: -34px;
+  padding-bottom: 14px;
+}
+
+.user-avatar {
+  border: 3px solid #ffffff;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -65px;
+}
+
+.user-name {
+  margin-top: 11px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.user-description {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 10px;
+}
+
+.button {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 61px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  gap: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.button.vk {
+  background: #4c75a3;
+}
+
+.button.tg {
+  background: #229ed9;
+}
+
+.button.tw {
+  background: #1da1f2;
+}
+
+.line {
+  border: 0.1px solid #000000;
+  transform: rotate(-0.47deg);
+  width: 122px;
+  height: 0px;
+  left: 134px;
+  top: 406px;
+}
